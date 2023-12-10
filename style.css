@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Exo+2:wght@600&family=Itim&family=Kdam+Thmor+Pro&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2C2C2C;
+}
+nav{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+}
+i{
+    cursor: pointer;
+}
+nav div{
+    background-color: #252526;
+    color: white;
+    width: 250px;
+    height: 1024px;
+}
+
+div a{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.logoimg{
+    width: 30px;
+}
+
+nav ul{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 26px;
+    margin: 50px 0px 0px 25px;
+    list-style-type: none;
+    color: white;
+}
+
+ul i{
+    color: #3700FF;
+}
+
+
+.container{
+    display: flex;
+    min-height: 10vh;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 12px;
+    margin-top : 60px;
+    font-size: 20px;
+}
+.list_1{
+    display: block;
+}
+.list_2{
+    display: none;
+}
+.list_3{
+    display: none;
+}
+.list_4{
+    display: none;
+}
+
+.bottom{
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    left: 250px;
+    right: 0;
+    height: 85px;
+    background-color: #2C2C2C;
+    color: white;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+#masterplay:hover{
+    color: #3700FF;
+}
+#next:hover{
+    color: #3700FF;
+}
+#previous:hover{
+    color: #3700FF;
+}
+#shuffle:hover{
+    color: #3700FF;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #4D4D4D;
+}
+.bar img{
+    width: 30px;
+}
+.bicon{
+    color: #2C2C2C;
+    /* background-color: #444444dd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    
+}
+.bicon img{
+    width: 60px;
+    height: 60px;
+}
+#progressbar{
+    width: 30vw;
+    cursor: pointer;
+    height: 6px;
+    background-color: white;
+}
+
+#soundbar{
+    margin-left: 40px;
+}
+
+.profile img{
+    margin-left: 139px;
+    width: 60px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    color: white;
+    margin: 22px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 43px;
+    margin: 0 20px ;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+#masterSongName{
+    margin-top: 10px;
+}
+
+h1{
+    color: #b8b8b8;
+    margin: 25px;
+}
+
+.Playlist{
+    position: relative;
+    background-color: black;
+    top: 85px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1278px;
+}
+.Album1{
+    display: flex;
+    flex-direction: row;
+    font-family:'Itim', sans-serif ;
+    color: #b8b8b8;
+    margin-bottom: 180px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none ;
+    font-size: 30px;
+    margin: 0 70px ;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.photo{
+    display: block;
+    width: 400px;
+    height: 440px;
+    margin-left: 100px;
+}
+
+button{
+    border-radius: 80px;
+    margin-top: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family:'Itim', sans-serif ;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 9px 0 #3700FF;
+    color: #3700FF;
+}
+
+::-webkit-scrollbar{
+    width: .5em;
+}
+::-webkit-scrollbar-track{
+    background: black;
+    margin-top: 85px;
+}
+::-webkit-scrollbar-thumb{
+    height: 10px;
+    border-radius: 100vw;
+    background: #190072;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #210196;
+}

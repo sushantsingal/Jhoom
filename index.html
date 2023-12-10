@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-15">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jhoom - Your music web</title>
+        <link rel="shortcut icon" href="Logo 1.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header class="bottom">
+            <div class="icons">
+                <!-- Remix icons -->
+                <i class="ri-shuffle-line" id="shuffle"></i>
+                <i class="ri-2x ri-arrow-left-double-line" id="previous"></i>
+                <i class="ri-3x ri-play-fill" id="masterplay"></i>
+                <i class="ri-2x ri-arrow-right-double-line" id="next"></i>
+                <i class="ri-repeat-line" id="repeat"></i>
+            </div>
+            <span class="bicon">
+                <img id="img" src="covers\Group 2.png">
+            </span>
+            <div class="bar">
+                <div id = "1" class="songinfo">
+                    <!-- <img src="eqc.gif" width="47px" id="gif">--> <span id="masterSongName"> <img src="Vector 1.png"> </span>
+                </div>
+            <!-- <input type="range" id="progressbar" min="0" value= "0" max="100"></input> -->
+            <progress type="range" id="progressbar" min="0" value= "0" max="100"></progress>
+            </div>
+            <div id="soundbar">
+                <i class="ri-volume-up-fill"></i>
+                <input type="range" id="volumebar" min="0" max="1" step="0.1" value="1"></input>
+            </div>
+
+            <div class="profile">
+                <img src="Profile.png"> 
+            </div>
+            
+        </header>
+        <section>
+            <nav>
+                <div>
+                    <a><img class="logoimg" src="Vector 1.png"> Jhoom </a>
+                    <ul>
+                        <li><i class="ri-music-2-fill"></i> Playlist</li>
+                        <li><i class="ri-history-line"></i> Recent</li>
+                        <li><i class="ri-award-line"></i> Recommended</li>
+                        
+                    </ul>
+                    <div class="container">
+                        <div class="list_1" id="list_1">
+                            <div id = "1" class="songlist">
+                            <h1> Recents </h1>
+                            <div class="itemcontainer">
+                                <div id = "1" class="songitem">
+                                    <img id="img">
+                                    <span id = "masterSongName" class="songName">Chocolate</span>
+                                    <span id = "1" class="songlistplay"> <i id = "0" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">Kuley Kuley</span>
+                                    <span id = "1" class="songlistplay"> <i id = "1" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">Top Flame</span>
+                                    <span id = "1" class="songlistplay"> <i id = "2" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">Softly</span>
+                                    <span id = "1" class="songlistplay"> <i id = "3" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">clash</span>
+                                    <span id = "1" class="songlistplay"> <i id = "4" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">Jhanger</span>
+                                    <span id = "1" class="songlistplay"> <i id = "5" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                <div id = "1" class="songitem">
+                                    <img alt="1">
+                                    <span id = "1" class="songName">Lifestyle</span>
+                                    <span id = "1" class="songlistplay"> <i id = "6" class="songItemPlay ri-play-fill"></i> </span></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id = "1" class="songbanner"></div>
+                        </div>
+                        <div class="list_2" id="list_2">
+                            <div id = "8" class="songlist">
+                                <h1> Recents </h1>
+                                <div class="itemcontainer">
+                                    <div id = "8" class="songitem">
+                                        <img>
+                                        <span id = "8" class="songName">Chocolate</span>
+                                        <span id = "8" class="songlistplay"> <i id = "7" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">Kuley Kuley</span>
+                                        <span id = "8" class="songlistplay"> <i id = "8" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">Top Flame</span>
+                                        <span id = "8" class="songlistplay"> <i id = "9" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">Softly</span>
+                                        <span id = "8" class="songlistplay"> <i id = "10" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">clash</span>
+                                        <span id = "8" class="songlistplay"> <i id = "11" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">Jhanger</span>
+                                        <span id = "8" class="songlistplay"> <i id = "12" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "8" class="songitem">
+                                        <img alt="8">
+                                        <span id = "8" class="songName">Lifestyle</span>
+                                        <span id = "8" class="songlistplay"> <i id = "13" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id = "8" class="songbanner"></div>
+                        </div>
+                        <div class="list_3" id="list_3">
+                            <div id = "15" class="songlist">
+                                <h1> Recents </h1>
+                                <div class="itemcontainer">
+                                    <div id = "15" class="songitem">
+                                        <img>
+                                        <span id = "15" class="songName">Chocolate</span>
+                                        <span id = "15" class="songlistplay"> <i id = "14" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">Kuley Kuley</span>
+                                        <span id = "15" class="songlistplay"> <i id = "15" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">Top Flame</span>
+                                        <span id = "15" class="songlistplay"> <i id = "16" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">Softly</span>
+                                        <span id = "15" class="songlistplay"> <i id = "17" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">clash</span>
+                                        <span id = "15" class="songlistplay"> <i id = "18" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">Jhanger</span>
+                                        <span id = "15" class="songlistplay"> <i id = "19" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "15" class="songitem">
+                                        <img alt="15">
+                                        <span id = "15" class="songName">Lifestyle</span>
+                                        <span id = "15" class="songlistplay"> <i id = "20" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id = "15" class="songbanner"></div>
+                        </div>
+                        <div class="list_4" id="list_4">
+                            <div id = "22" class="songlist">
+                                <h1> Recents </h1>
+                                <div class="itemcontainer">
+                                    <div id = "22" class="songitem">
+                                        <img>
+                                        <span id = "22" class="songName">Chocolate</span>
+                                        <span id = "22" class="songlistplay"> <i id = "21" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">Kuley Kuley</span>
+                                        <span id = "22" class="songlistplay"> <i id = "22" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">Top Flame</span>
+                                        <span id = "22" class="songlistplay"> <i id = "23" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">Softly</span>
+                                        <span id = "22" class="songlistplay"> <i id = "24" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">clash</span>
+                                        <span id = "22" class="songlistplay"> <i id = "25" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">Jhanger</span>
+                                        <span id = "22" class="songlistplay"> <i id = "26" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                    <div id = "22" class="songitem">
+                                        <img alt="22">
+                                        <span id = "22" class="songName">Lifestyle</span>
+                                        <span id = "22" class="songlistplay"> <i id = "27" class="songItemPlay ri-play-fill"></i> </span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id = "22" class="songbanner"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+        <section class="Playlist">
+            <div class="Album1">
+                <div class="list">
+                    <h2>Diljit Dosanjh</h2>
+                    <li>Proper Patola</li>
+                    <li>Palpita</li>
+                    <li>Born to Shine</li>
+                    <li>G.O.A.T</li>
+                    <li>Lemonade</li>
+                    <li>Goliya</li>
+                    <li>Raat Di Gedi</li>
+                    <button id="btn1">Play Now <i class="ri-2x ri-play-fill"></i></button>
+                </div>
+                <img class="photo" src="\Album\Diljit.png">
+            </div>
+            <div class="Album1">
+                <img class="photo" src="\Album\Animal.png">
+                <div class="list">
+                    <h2>Animal</h2>
+                    <li>Hua Main</li>
+                    <li>Satranga</li>
+                    <li>Papa Meri Jaan</li>
+                    <li>Arjan Vailly</li>
+                    <li>Pehle Bhi Main</li>
+                    <li>Saari Duniya Jalaa Denge</li>
+                    <li>Haiwaan</li>
+                    <button id="btn2">Play Now <i class="ri-2x ri-play-fill"></i></button>
+                </div>
+            </div>
+            <div class="Album1">
+                <div class="list">
+                    <h2>Twinbeatz</h2>
+                    <li>Diamond</li>
+                    <li>Wait Up</li>
+                    <li>Perfect</li>
+                    <li>Wavy</li>
+                    <li>She Bad</li>
+                    <li>Dark Knight</li>
+                    <li>Middle Fingers Up</li>
+                    <button id="btn3">Play Now <i class="ri-2x ri-play-fill"></i></button>
+                </div>
+                <img class="photo" src="\Album\Twinbeatz.png">
+            </div>
+            <div class="Album1">
+                <img class="photo" src="\Album\Karan.png">
+                <div class="list">
+                    <h2>Karan Aujla</h2>
+                    <li>Admirin' You (feat. Preston Pablo)</li>
+                    <li>Softly</li>
+                    <li>Jee Ni Lagda</li>
+                    <li>Champion's Anthem</li>
+                    <li>Mexico</li>
+                    <li>On Top</li>
+                    <li>Bachke Bachke (feat. Yarah)</li>
+                   <button id="btn4">Play Now <i class="ri-2x ri-play-fill"></i></button>
+                </div>
+            </div>
+    
+        </section>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
