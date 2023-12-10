@@ -8,6 +8,33 @@
 body{
     background-color: #2C2C2C;
 }
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: white;
+    }
+    section{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        margin: 200px;
+    }
+    h3{
+        font-size: 50px;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .bottom{
+        display: flex;
+    }
+}
 nav{
     z-index: 1;
     position: fixed;
@@ -73,7 +100,6 @@ ul i{
 
 .bottom{
     z-index: 1;
-    display: flex;
     position: fixed;
     left: 250px;
     right: 0;
