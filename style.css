@@ -22,10 +22,10 @@ body{
 
     .mobile{
         display: block;
-        margin: 200px;
+        margin: 100px;
     }
     h3{
-        font-size: 50px;
+        font-size: 60px;
         color: black;
     }
 }
